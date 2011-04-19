@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RingLimiter</string>
+    <string name="charging">Phone must be on charger</string>
+    <string name="nocharging">Phone cannot be on charger</string>
+    <string name="newfilter">New filter</string>
+    <string name="sillent">Sillent mode</string>
+    <string name="vibrate">Vibrate mode</string>
+    <string name="normal">Sounds on mode</string>
+    <string name="standard">Default mode none filter applyed</string>
+    <string name="empty"></string>
+    <string name="filtertime">Filter apply time</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="mode">Set mode</string>
+    <string name="save">Save</string>
+    <string name="filtername">Filter name</string>
+    <string name="filterwarning">If this filter is apply, next filter wouldn't be checked.</string>
+    <string name="orientation">Phone orientation</string>
+    <string name="time">Time</string>
+    <string name="alltime">all time</string>
+    <string name="displayup">Display up</string>
+    <string name="displaydown">Display down</string>
+    <string name="displayupdown">Display up or down</string>
+    <string name="displaynotup">Display not up</string>
+    <string name="displaynotdown">Display not down</string>
+    <string name="displaynotupdown">Display not up or down</string>
+    <string name="setsillent">Set mode: Sillent mode</string>
+    <string name="setvibrate">Set mode: Vibrate mode</string>
+    <string name="setnormal">Set mode: Sounds on mode</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="weekdays">Days of the week</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="everyday">every day</string>
+    <string name="calendarevent">Calendar event in progress</string>
+    <string name="nocalendarevent">No calendar event in progress</string>
+    <string name="active">Active (uncheck this temporaly disable program)</string>
+    <string name="settings">Settings</string>
+    <string name="def">Default</string>
+    <string name="vip">VIP</string>
+    <string name="contacts">Contacts</string>
+
+    <string-array name="chargingfilter">
+        <item>Irrelevant</item>
+        <item>On charger</item>
+        <item>Not on charger</item>
+    </string-array>
+    <string-array name="mode">
+        <item>Don't change mode</item>
+        <item>Sillent mode</item>
+        <item>Vibrate mode</item>
+        <item>Sounds on mode</item>
+    </string-array>
+    <string-array name="orientation">
+        <item>Irrelevant</item>
+        <item>Display up</item>
+        <item>Display down</item>
+        <item>Display up or down</item>
+        <item>Display not up</item>
+        <item>Display not down</item>
+        <item>Display not up or down</item>
+    </string-array>
+    
+    <string-array name="calendar">
+        <item>Irrelevant</item>
+        <item>Event in progress</item>
+        <item>No event now</item>
+    </string-array>
+    <string-array name="contactmode">
+        <item>Default</item>
+        <item>VIP</item>
+        <item>Always sillent mode</item>
+        <item>Always vibrate mode</item>
+        <item>Always sounds on mode</item>
+    </string-array>
+</resources>

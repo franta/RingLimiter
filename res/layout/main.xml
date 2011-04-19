@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+      
+      <TableLayout android:id="@+id/TableLayout04" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<CheckBox android:text="@string/active" android:id="@+id/CheckBox01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10px" android:layout_marginLeft="5px"></CheckBox>
+</TableLayout>
+            
+        <TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" >
+
+<TextView android:text="@string/standard" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<Spinner android:id="@+id/Spinner01" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+
+<Button android:text="@string/newfilter" android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+<ListView android:id="@+id/ListView01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+</ListView>
+
+</TableLayout>
+
+<TableLayout android:id="@+id/TableLayout02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+<TextView android:text="@string/standard" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<Spinner android:id="@+id/Spinner02" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+
+<Button android:text="@string/newfilter" android:id="@+id/Button02" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+<ListView android:id="@+id/ListView02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+</ListView>
+
+</TableLayout>
+
+<TableLayout android:id="@+id/TableLayout03" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ListView android:id="@+id/ListView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+</TableLayout>
+
+        </FrameLayout>
+</LinearLayout>
+</TabHost> 

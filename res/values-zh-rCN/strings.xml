@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RingLimiter</string>
+    <string name="charging">手机需处于充电状态</string>
+    <string name="nocharging">手机不能处于充电状态</string>
+    <string name="newfilter">新过滤</string>
+    <string name="sillent">静音模式</string>
+    <string name="vibrate">振动模式</string>
+    <string name="normal">声音开启模式</string>
+    <string name="standard">默认模式没有过滤</string>
+    <string name="empty"></string>
+    <string name="filtertime">过滤时间</string>
+    <string name="from">从</string>
+    <string name="to">到</string>
+    <string name="mode">设置模式</string>
+    <string name="save">保存</string>
+    <string name="filtername">过滤名称</string>
+    <string name="filterwarning">如果使用了该过滤, 则下一个过滤无法检测到。</string>
+    <string name="orientation">手机方向</string>
+    <string name="time">时间</string>
+    <string name="alltime">全部时间</string>
+    <string name="displayup">显示向上</string>
+    <string name="displaydown">显示向下</string>
+    <string name="displayupdown">显示向下或向下</string>
+    <string name="displaynotup">不显示向上</string>
+    <string name="displaynotdown">不显示向下</string>
+    <string name="displaynotupdown">不显示向上或向下</string>
+    <string name="setsillent">设置模式: 静音模式</string>
+    <string name="setvibrate">设置模式: 振动模式</string>
+    <string name="setnormal">设置模式: 声音开启模式</string>
+    <string name="up">向上</string>
+    <string name="down">向下</string>
+    <string name="edit">编辑</string>
+    <string name="remove">移除</string>
+    <string name="weekdays">一星期的七天</string>
+    <string name="sunday">星期日</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="everyday">每天</string>
+    <string name="calendarevent">正在进行的日历事件的</string>
+    <string name="nocalendarevent">没有正在进行的日历事件</string>
+    <string name="active">激活 (取消这个临时文件禁用程序)</string>
+    <string name="settings">设置</string>
+    <string name="def">默认</string>
+    <string name="vip">VIP</string>
+    <string name="contacts">联系人</string>
+
+    <string-array name="chargingfilter">
+        <item>不相关</item>
+        <item>正在充电</item>
+        <item>不在充电</item>
+    </string-array>
+    <string-array name="mode">
+        <item>不更改模式</item>
+        <item>静音模式</item>
+        <item>振动模式</item>
+        <item>声音开启模式</item>
+    </string-array>
+    <string-array name="orientation">
+        <item>不相关</item>
+        <item>显示向上</item>
+        <item>显示向下</item>
+        <item>显示向上或向下</item>
+        <item>不显示向上</item>
+        <item>不显示向下</item>
+        <item>不显示向上或向下</item>
+    </string-array>
+    
+    <string-array name="calendar">
+        <item>不相关</item>
+        <item>正在进行的事件</item>
+        <item>现在没有时间</item>
+    </string-array>
+    <string-array name="contactmode">
+        <item>默认</item>
+        <item>VIP</item>
+        <item>一直都是默认模式</item>
+        <item>一直都是振动模式</item>
+        <item>一直都是声音开启模式</item>
+    </string-array>
+</resources>

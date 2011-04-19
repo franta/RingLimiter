@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">RingLimiter</string>
+    <string name="charging">Telefon je připojen k nabíječce</string>
+    <string name="nocharging">Telefon není připojen k nabíječce</string>
+    <string name="newfilter">Nový filtr</string>
+    <string name="sillent">Tichý režim</string>
+    <string name="vibrate">Pouze vibrace</string>
+    <string name="normal">Zvuky zapnuty</string>
+    <string name="standard">Defaultní chování neodpovídající žádnému filtru</string>
+    <string name="empty"></string>
+    <string name="filtertime">Čas platnosti filtru</string>
+    <string name="from">Od</string>
+    <string name="to">Do</string>
+    <string name="mode">Přepnout do režimu</string>
+    <string name="save">Uložit</string>
+    <string name="filtername">Jméno filtru</string>
+    <string name="filterwarning">V případě že situace odpovídá tomuto filtru, nebude žádný následující aplikován.</string>
+    <string name="orientation">Poloha telefonu</string>
+    <string name="time">Čas</string>
+    <string name="alltime">vždy</string>
+    <string name="displayup">Displayem nahoru</string>
+    <string name="displaydown">Displayem dolů</string>
+    <string name="displayupdown">Displayem nahoru nebo dolů</string>
+    <string name="displaynotup">Displayem jinak než nahoru</string>
+    <string name="displaynotdown">Displayem jinak než dolů</string>
+    <string name="displaynotupdown">Displayem jinak než nahoru nebo dolů</string>
+    <string name="setsillent">Přepnout do režimu: Tichý režim</string>
+    <string name="setvibrate">Přepnout do režimu: Pouze vibrace</string>
+    <string name="setnormal">Přepnout do režimu: Zvuky zapnuty</string>
+    <string name="up">Nahoru</string>
+    <string name="down">Dolů</string>
+    <string name="edit">Upravit</string>
+    <string name="remove">Smazat</string>
+    <string name="weekdays">Dny v týdnu</string>
+    <string name="sunday">Neděle</string>
+    <string name="monday">Pondělí</string>
+    <string name="tuesday">Úterý</string>
+    <string name="wednesday">Středa</string>
+    <string name="thursday">Čtvrtek</string>
+    <string name="friday">Pátek</string>
+    <string name="saturday">Sobota</string>
+    <string name="everyday">každý den</string>
+    <string name="calendarevent">Probíhající událost v kalendáři</string>
+    <string name="nocalendarevent">Žádná probíhající událost v kalendáři</string>
+    <string name="active">Aktivní (nezatržení znamená dočasné odstavení programu)</string>
+    <string name="settings">Nastavení</string>
+    <string name="def">Default</string>
+    <string name="vip">VIP</string>
+    <string name="contacts">Kontakty</string>
+    
+    <string-array name="chargingfilter">
+        <item>Nezáleží</item>
+        <item>Je na nabíječce</item>
+        <item>Není na nabíječce</item>
+    </string-array>
+    <string-array name="mode">
+        <item>Neměnit režim</item>
+        <item>Tichý režim</item>
+        <item>Pouze vibrace</item>
+        <item>Zvuky zapnuty</item>
+    </string-array>
+    
+    <string-array name="orientation">
+        <item>Nezaleží</item>
+        <item>Displayem nahoru</item>
+        <item>Displayem dolů</item>
+        <item>Displayem nahoru nebo dolů</item>
+        <item>Displayem jinak než nahoru</item>
+        <item>Displayem jinak než dolů</item>
+        <item>Displayem jinak než nahoru nebo dolů</item>
+    </string-array>
+    
+    <string-array name="calendar">
+        <item>Nezáleží</item>
+        <item>Probíhající událost</item>
+        <item>Momentálně žádná událost</item>
+    </string-array>
+    
+    <string-array name="contactmode">
+        <item>Default</item>
+        <item>VIP</item>
+        <item>Vždy tichý režim</item>
+        <item>Vždy pouze vibrace</item>
+        <item>Vždy zapnout zvuky</item>
+    </string-array>
+
+</resources>

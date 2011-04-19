@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="5px">
+<TextView android:text="@+id/TextView01" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15px" android:layout_marginBottom="10px"></TextView>
+<FrameLayout android:id="@+id/FrameLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Spinner android:id="@+id/Spinner01" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_width="270px"></Spinner>
+</FrameLayout>
+</TableLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<TableLayout android:id="@+id/TableLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="3px">
+<TextView android:text="@string/filtername" android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="25px"></TextView>
+<EditText android:text="@string/empty" android:id="@+id/EditText01" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+
+<TextView android:text="@string/filtertime" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="25px" android:layout_marginTop="10px"></TextView>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_gravity="center" android:layout_height="fill_parent" android:stretchColumns="*">
+<TableRow>
+<TextView android:text="@string/from" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginRight="10px"></TextView>
+<TextView android:text="@string/to" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginRight="15px"></TextView>
+</TableRow>
+<TableRow>
+<TimePicker android:id="@+id/TimePicker01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></TimePicker>
+<TimePicker android:id="@+id/TimePicker02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></TimePicker>
+</TableRow>
+</TableLayout>
+
+<TextView android:text="@string/weekdays" android:id="@+id/TextView09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="25px" android:layout_marginTop="10px"></TextView>
+<CheckBox android:text="@string/sunday" android:id="@+id/CheckBox01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></CheckBox>
+<CheckBox android:text="@string/monday" android:id="@+id/CheckBox02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></CheckBox>
+<CheckBox android:text="@string/tuesday" android:id="@+id/CheckBox03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></CheckBox>
+<CheckBox android:text="@string/wednesday" android:id="@+id/CheckBox04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></CheckBox>
+<CheckBox android:text="@string/thursday" android:id="@+id/CheckBox05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></CheckBox>
+<CheckBox android:text="@string/friday" android:id="@+id/CheckBox06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></CheckBox>
+<CheckBox android:text="@string/saturday" android:id="@+id/CheckBox07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></CheckBox>
+
+
+<TextView android:text="@string/charging" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="25px" android:layout_marginTop="10px"></TextView>
+
+<Spinner android:id="@+id/Spinner01" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+
+<TextView android:text="@string/orientation" android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="25px" android:layout_marginTop="10px"></TextView>
+<Spinner android:id="@+id/Spinner03" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+
+<TextView android:text="@string/calendarevent" android:id="@+id/TextView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="25px" android:layout_marginTop="10px"></TextView>
+<Spinner android:id="@+id/Spinner04" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+
+<TextView android:text="@string/mode" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="25px" android:layout_marginTop="10px"></TextView>
+
+<Spinner android:id="@+id/Spinner02" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+<TextView android:text="@string/filterwarning" android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5px"></TextView>
+
+<Button android:text="@string/save" android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="5px" android:layout_marginBottom="5px"></Button>
+
+</TableLayout>
+
+</ScrollView>
